@@ -1,0 +1,102 @@
+header {
+    width: 480px;
+    height: 75px;
+    border-style: solid;
+    background-color: grey;
+    line-height: 75px;
+}
+main {
+    width: 480px;
+    height: 150px;
+    border-style: solid;
+    background-color: grey;
+    line-height: 150px;
+}
+
+article {
+    width: 480px;
+    height: 125px;
+    border-style: solid;
+    background-color: grey;
+    line-height: 125px;
+}
+
+section {
+    float: right;
+}
+
+div {
+    width: 240px;
+    height: 250px;
+    border-style: solid;
+    background-color: grey;
+    line-height: 250px;
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+footer {
+    width: 480px;
+    height: 80px;
+    border-style: solid;
+    background-color: grey;
+    clear: both;
+    line-height: 80px;
+}
+@media (min-width: 768px) {
+    header {
+        width: 960px;
+        height: 100px;
+        border-style: solid;
+        background-color: hotpink;
+        line-height: 100px;
+        border-width: .3px;
+    }
+    main {
+        width: 200px;
+        height: 600px;
+        border-style: solid;
+        background-color: hotpink;
+        position: absolute;
+        line-height: 600px;
+    }
+    
+    article {
+        width: 380px;
+        height: 200px;
+        border-style: solid;
+        background-color: hotpink;
+        float: right;
+        line-height: 200px;
+    }
+    
+    div {
+        width: 190px;
+        height: 250px;
+        border-style: solid;
+        background-color: hotpink;
+        line-height: 250px;
+    }
+    .left{
+        float: left;
+    }
+    
+    .right{
+        float: right;
+    }
+    
+    footer {
+        width: 760px;
+        height: 150px;
+        border-style: solid;
+        background-color: hotpink;
+        clear: both;
+        float: right;
+        line-height: 150px;
+    }
+}

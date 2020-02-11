@@ -1,0 +1,15 @@
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+body {
+    border-style: solid;
+    width: 487px;
+}
+@media (min-width: 768px) {
+    body {
+        border-style: solid;
+        width: 966px;
+    }
+}
